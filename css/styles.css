@@ -1,0 +1,174 @@
+body{
+  background-image: url("images/kknh.jpg");
+  font-family: "Montserrat";
+  text-align: center;
+  line-height: 1.5;
+}
+h1{
+  font-family: "Montserrat-Bold";
+  font-size: 2.7rem;
+}
+h3{
+  font-family: "Montserrat-Bold";
+  font-size: 1.2rem;
+}
+h4,h5,h6{
+  font-family: "Montserrat-Bold";
+}
+
+/* top heading */
+
+.top-heading{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.header-img{
+  width: 60%;
+  border-radius: 10%;
+}
+
+/* navbar */
+.navbar{
+padding-top: 0;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 8px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: Montserrat-light;
+}
+
+
+
+
+.kknh-header{
+  background-color: #da2d2d;
+  color: #fff;
+
+}
+.container-fluid{
+padding: 4% 17%;
+}
+
+/* section heritage */
+.heritage{
+  font-family: "Montserrat-Bold";
+  font-size: 2.2rem;
+  padding-top: 2.8rem;
+  padding-bottom: 0;
+  /* background-color: #ef8172; */
+  background-color: #da2d2d;
+  color: #fff;
+  text-align: center;
+}
+.carrying{
+  font-size: 1.5rem;
+}
+.established{
+  font-size: 1rem;
+  text-align: center;
+}
+.no-branch{
+  font-size: 1rem;
+  text-align: center;
+}
+
+.heritage-icon{
+  padding: 1rem;
+  text-align: center;
+}
+
+
+.heritage-heading{
+  text-decoration: underline;
+}
+
+.feature-box{
+  padding: 5%;
+  font-family: "Montserrat-Bold";
+
+}
+
+/* kknh navbar-heritage */
+.navigation{
+  padding: 1% 10%;
+  background-color: #da2d2d;
+}
+
+/* features section */
+
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+/* know your doctor */
+.kyd{
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+}
+.kyd-img{
+  border-radius: 50%;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.colored-sec{
+  background-color: #da2d2d;
+  padding: 0;
+}
+.kyd-heading{
+  padding-top: 3%;
+}
+#testimonial-carousel1{
+  padding-top: 0%;
+}
+/* cardiac section */
+.cardiac{
+  font-family: "Montserrat-Bold";
+  background-color: #fff;
+  font-size: 2.5rem;
+}
+
+/* footer section */
+.footer-icon{
+  margin: 1%;
+}
+
+/* Slide */
+.colored-section{
+  background-color: #ff4c68;
+}
+.testimonial-img{
+  height: 90vh;
+  width: 100%;
+}
+.carousel-item{
+  padding: 0;
+}
+.carousel-inner{
+
+}
+.colored-section{
+  padding: 0;
+}
+
+
+@media (max-width: 1028px){
+  .testimonial-img{
+    height: 65vh;
+    width: 100%;
+  }
+}
+
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
